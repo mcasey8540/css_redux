@@ -1,9 +1,15 @@
-strong {color: red;}
+body{font-family: arial;}
 
-.carrot { color: orange;}
+a.homepage:link, a.homepage:visited {
+	color: white;
+	background: #3A3A3A;
+	padding: 2px 10px 2px 10px;
+	border-radius: 3px;
+	border: 1px outset #3A3A3A;
+	font-weight: bold;
+	text-decoration: none;
+}
 
-.spinach { color: green;}
-
-#first { font-style: italic; color:blue ;}
-
-#second {color: blue;}
+a.homepage:hover, a.homepage:focus, a.homepage:active {
+	background-color: #666;
+}
